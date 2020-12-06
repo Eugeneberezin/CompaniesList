@@ -12,13 +12,23 @@ struct ContentView: View {
     @ObservedObject var companyViewModel = CompanyViewModel()
     
     var body: some View {
+        NavigationView {
         List {
             ForEach(companyViewModel.companies) { compay in
                 
-                Text(compay.companyName)
+                    CompanyView(company: compay)
+                        .padding(.top)
+                        .padding(.bottom)
+                
                 
             }
         }
+        .navigationBarTitle(Text("Pros"), displayMode: .inline)
+        
+        
+        
+            
+    }
     }
 }
 

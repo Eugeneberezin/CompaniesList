@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct CompaniesListApp: App {
+    @StateObject var companyViewModel = CompanyViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(companyViewModel)
         }
     }
 }

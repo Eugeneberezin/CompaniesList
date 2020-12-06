@@ -23,6 +23,8 @@ struct Company: Codable, Identifiable {
     let specialty: String
     let primaryLocation: String
     let email: String
+    
+    static let companyExample = Company(entityID: "123", companyName: "Example Company", ratingCount: "10", compositeRating: "2.9", companyOverview: "Example", canadianSP: false, spanishSpeaking: false, phoneNumber: "773-495-9659", latitude: nil, longitude: nil, servicesOffered: nil, specialty: "Example specialty", primaryLocation: "Seattle", email: "example@example.com")
 
     enum CodingKeys: String, CodingKey {
         case entityID = "entityId"
