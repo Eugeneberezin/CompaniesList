@@ -12,7 +12,7 @@ struct CompanyView: View {
     var company: Company
     var body: some View {
         
-        NavigationLink(destination: Text("Test")) {
+        NavigationLink(destination: DetailsView(company: company)) {
             VStack(alignment: .leading) {
                 Text(company.companyName)
                     .font(.system(size: 18)).bold()
