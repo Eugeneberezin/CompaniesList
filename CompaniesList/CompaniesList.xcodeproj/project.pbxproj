@@ -16,6 +16,7 @@
 		05B85581257C37C200602897 /* CompanyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B85580257C37C200602897 /* CompanyViewModel.swift */; };
 		05B85586257C55D000602897 /* CompanyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B85585257C55D000602897 /* CompanyView.swift */; };
 		05B85589257C6E6D00602897 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B85588257C6E6D00602897 /* DetailsView.swift */; };
+		05B8558D257D8ABA00602897 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B8558C257D8AB900602897 /* Bundle+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		05B85580257C37C200602897 /* CompanyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyViewModel.swift; sourceTree = "<group>"; };
 		05B85585257C55D000602897 /* CompanyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyView.swift; sourceTree = "<group>"; };
 		05B85588257C6E6D00602897 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		05B8558C257D8AB900602897 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		05B85567257C34AC00602897 /* CompaniesList */ = {
 			isa = PBXGroup;
 			children = (
+				05B8558B257D8A9B00602897 /* Extensions */,
 				05B85583257C55A000602897 /* Views */,
 				05B8557B257C36A800602897 /* Model */,
 				05B85568257C34AC00602897 /* CompaniesListApp.swift */,
@@ -98,6 +101,14 @@
 				05B85588257C6E6D00602897 /* DetailsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		05B8558B257D8A9B00602897 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05B8558C257D8AB900602897 /* Bundle+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B85581257C37C200602897 /* CompanyViewModel.swift in Sources */,
+				05B8558D257D8ABA00602897 /* Bundle+Extension.swift in Sources */,
 				05B8556B257C34AC00602897 /* ContentView.swift in Sources */,
 				05B85569257C34AC00602897 /* CompaniesListApp.swift in Sources */,
 				05B85586257C55D000602897 /* CompanyView.swift in Sources */,
